@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/Sample-FluentValidation.WebApi.csproj": {}
+  },
+  "projects": {
+    "/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/Sample-FluentValidation.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/Sample-FluentValidation.WebApi.csproj",
+        "projectName": "Sample-FluentValidation.WebApi",
+        "projectPath": "/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/Sample-FluentValidation.WebApi.csproj",
+        "packagesPath": "/home/ziagham/.nuget/packages/",
+        "outputPath": "/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ziagham/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

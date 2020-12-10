@@ -1,0 +1,12 @@
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/bin/Debug/net5.0/SampleFluentValidation.Models.deps.json
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/bin/Debug/net5.0/SampleFluentValidation.Models.dll
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/bin/Debug/net5.0/ref/SampleFluentValidation.Models.dll
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/bin/Debug/net5.0/SampleFluentValidation.Models.pdb
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/obj/Debug/net5.0/SampleFluentValidation.Models.csprojAssemblyReference.cache
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/obj/Debug/net5.0/SampleFluentValidation.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/obj/Debug/net5.0/SampleFluentValidation.Models.AssemblyInfoInputs.cache
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/obj/Debug/net5.0/SampleFluentValidation.Models.AssemblyInfo.cs
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/obj/Debug/net5.0/SampleFluentValidation.Models.csproj.CoreCompileInputs.cache
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/obj/Debug/net5.0/SampleFluentValidation.Models.dll
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/obj/Debug/net5.0/ref/SampleFluentValidation.Models.dll
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.Models/obj/Debug/net5.0/SampleFluentValidation.Models.pdb
