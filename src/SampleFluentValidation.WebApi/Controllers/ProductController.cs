@@ -1,5 +1,5 @@
-using System;
-using System.Threading.Tasks;
+using FluentValidation;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SampleFluentValidation.Models.Domains;
@@ -18,28 +18,16 @@ namespace SampleFluentValidation.WebApi.Controllers
             this._logger = logger;
         }
 
-        // [HttpGet]
-        // public async Task<IActionResult> Get()
-        // {
-
-        // }
-
-        // [HttpGet]
-        // public async Task<IActionResult> Get([FromUrl] Product product)
-        // {
-
-        // }
-
         [HttpPost]
         public IActionResult Post([FromBody] Product product)
         {
             var validator = new ProductValidator();
-            var result = validator.Validate(product);
-            
-            if (result.IsValid)
-                return Ok();
+            ValidationResult result = validator.Validate(product);
 
-            return BadRequest(result.Errors);
+            if (result.IsValid)
+                return Ok(product);
+
+            throw new ValidationException(result.Errors);
         }
 
         [HttpDelete("{id}")]

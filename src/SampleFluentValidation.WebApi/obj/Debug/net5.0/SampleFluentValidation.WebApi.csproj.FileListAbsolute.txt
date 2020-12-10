@@ -40,3 +40,7 @@
 /home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/obj/Debug/net5.0/SampleFluentValidation.WebApi.genruntimeconfig.cache
 /home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/bin/Debug/net5.0/SampleFluentValidation.Models.dll
 /home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/bin/Debug/net5.0/SampleFluentValidation.Models.pdb
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/ziagham/Programming/Github/Sample-FluentValidation/src/SampleFluentValidation.WebApi/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll

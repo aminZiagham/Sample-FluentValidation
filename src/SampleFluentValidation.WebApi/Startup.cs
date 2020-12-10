@@ -29,14 +29,18 @@ namespace SampleFluentValidation.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers()
-
-            //services.AddMvc(opt => { opt.Filters.Add(typeof(ExceptionFilter)); })
+            services.AddControllers(cfg => { 
+                cfg.Filters.Add(typeof(ValidateModelStateAttribute));
+            }).AddNewtonsoftJson()
             .AddFluentValidation(cfg => 
             {
                 cfg.RegisterValidatorsFromAssemblyContaining<Startup>(); 
-                cfg.RunDefaultMvcValidationAfterFluentValidationExecutes = false; 
             });
+
+            // services.Configure<ApiBehaviorOptions>(cfg =>
+            // {
+            //     cfg.SuppressModelStateInvalidFilter = true;
+            // });
 
             services.AddSwaggerGen(c =>
             {
